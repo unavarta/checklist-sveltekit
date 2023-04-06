@@ -2,7 +2,9 @@
     import AddTodoSection from '../lib/components/todos/AddTodoSection.svelte';
     import TodoSection from '../lib/components/todos/TodoSection.svelte';
 </script>
-
+<svelte:head>
+    <title>Checklist App</title>
+</svelte:head>
 <div class="min-h-screen bg-code-bg p-0 selection:bg-gruvlight-border md:py-24 md:px-8"> 
     <main
     class="mx-auto min-h-screen max-w-none rounded-none
