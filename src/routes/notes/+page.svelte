@@ -1,7 +1,7 @@
 <script>
-    import AddTodoSection from '../lib/components/todos/AddTodoSection.svelte';
-    import TodoSection from '../lib/components/todos/TodoSection.svelte';
-    import Header from '../lib/components/Header.svelte';
+    import AddNote from '../../lib/components/todos/AddNote.svelte';
+    import Header from '../../lib/components/Header.svelte';
+  import NoteSection from '../../lib/components/todos/NoteSection.svelte';
 </script>
 <svelte:head>
     <title>Checklist App</title>
@@ -14,10 +14,10 @@
     md:px-8 
      md:outline-code-border">
      <Header />
-        <h1 class="text-2xl font-bold text-code-text ">To Do List</h1>
+        <h1 class="text-2xl font-bold text-code-text ">Write down Notes</h1>
         <div class="mt-10">
-            <AddTodoSection />
-            <TodoSection />
+            <AddNote />
+            <NoteSection />
         </div>
     </main>
-</div>
+</div>  
