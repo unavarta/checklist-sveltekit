@@ -9,7 +9,7 @@
 
 
 <div class="flex items-center justify-between rounded-md border-2 border-code-bg px-5 py-4 ">
-    <div class="flex w-full max-w-lg items-center justify-start">
+    <div class="flex w-full max-w-150px items-center justify-start ">
         <label for={`${todo.id}-checkbox`} class="sr-only">Complete To-Do</label>
         <input
             id={`${todo.id}-checkbox`}
