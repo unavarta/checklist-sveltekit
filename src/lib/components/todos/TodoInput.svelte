@@ -7,8 +7,8 @@
 </script>
 
 
-<div class="flex items-center justify-between rounded-md border-2 border-code-border px-5 py-4 ">
-    <div class="flex w-full max-w-lg items-center justify-start">
+<div class="flex items-center justify-between  border-2 border-code-bg rounded-sm px-5 py-4 ">
+    <div class="flex w-full max-w-none items-center justify-start">
         <label for={`${todo.id}-checkbox`} class="sr-only">Complete To-Do</label>
         <input
             id={`${todo.id}-checkbox`}
